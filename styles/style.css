@@ -1,0 +1,51 @@
+html {
+    background-color: #ffffff;
+}
+
+body {
+    background-color: #F78C58;
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    top: 50%;
+    right: 50%;
+    margin-top: -250px;
+    margin-right: -250px;
+}
+
+.textformat {
+    font-family: sans-serif;
+    font-size: 1em;
+}
+    
+#leftcol {
+    position: absolute;
+    z-index: -1;
+    left: 10px;
+    top: 10px;
+}
+        
+
+#midcol {
+    position: absolute;
+    z-index: -1;
+    left: 170px;
+    top: 50px;
+}
+     
+
+#rightcol {
+    position: absolute;
+    z-index: -1;
+    left: 315px;
+    top: 25px;
+}
+     
+img {
+    position: absolute;
+    bottom: 10px;
+    left: 60px;
+    height: 100px;
+    width: 100px;
+    z-index: 1;
+}
